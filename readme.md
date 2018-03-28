@@ -3,8 +3,8 @@
 ## 开发基本知识 (请自行百度)
 - git使用
 - github使用
-- IDE推荐(VSCODE)
-- nodejs安装
+- IDE推荐(VSCODE、webstorm)
+- [nodejs](http://nodejs.cn/download/)
 
 ## 技术栈
 - [knockoutjs](https://songhlc.gitbooks.io/knockoutjs/content/)
