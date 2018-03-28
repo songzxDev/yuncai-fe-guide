@@ -30,6 +30,18 @@
 - 供应商管理：cpu-supplymgr-fe（整理中）
 - 其他（整理中）
 
+## 视频集合
+
+- [0.开发准备和一些概念介绍](https://v.youku.com/v_show/id_XMzQ5Nzc1NzA2OA==.html?sharefrom=iphone&sharekey=8cb2ac4c5ad13b4e507b291b04ad50777)
+   - yuncai-fe-guide
+   - 环境准备
+   - 单页面应用介绍
+   - requirejs + directorjs介绍
+- 1.knockoutjs基本语法讲解
+- 2.mall-cli-portal 超市前端讲解
+- 3.cpu-portal-fe 询报价、基本档案前端讲解
+- 4.home 官网门户代码讲解
+
 ## 相关链接
 [ES6基础知识](http://es6.ruanyifeng.com/)
 [ESLint知识](http://eslint.cn/)
