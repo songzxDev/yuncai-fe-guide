@@ -5,6 +5,7 @@
 - github使用
 - IDE推荐(VSCODE、webstorm)
 - [nodejs](http://nodejs.cn/download/)
+- [安装yarn](https://yarn.bootcss.com/docs/install.html)
 
 ## 技术栈
 - [knockoutjs](https://songhlc.gitbooks.io/knockoutjs/content/)
