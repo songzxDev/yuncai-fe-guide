@@ -4,6 +4,7 @@
 - git使用
 - github使用
 - IDE推荐(VSCODE)
+- nodejs安装
 
 ## 技术栈
 - [knockoutjs](https://songhlc.gitbooks.io/knockoutjs/content/)
