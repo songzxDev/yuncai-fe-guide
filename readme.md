@@ -8,7 +8,7 @@
 - [安装yarn](https://yarn.bootcss.com/docs/install.html)
 
 ## 技术栈
-- [knockoutjs](https://songhlc.gitbooks.io/knockoutjs/content/)
+- [knockoutjs](https://songhlc.gitbooks.io/knockoutjs/content/) [pdf版本](https://github.com/yonyouyc/yuncai-fe-guide/blob/master/tutorial/knockoutjs-guide.pdf)
 - jquery（使用一小部分，请逐步转变为MVVM的开发模式）
 - [requirejs](http://www.runoob.com/w3cnote/requirejs-tutorial-1.html)
 - [directorjs](https://www.cnblogs.com/Showshare/p/director-chinese-tutorial.html)
