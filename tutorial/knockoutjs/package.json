@@ -1,0 +1,12 @@
+{
+  "name": "yctutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "browser-sync start --server --files '*.css, *.html, *.js'"
+  },
+  "dependencies": {
+    "browser-sync": "^2.23.6"
+  }
+}

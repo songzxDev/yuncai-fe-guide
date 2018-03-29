@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title2</title>
+    <script src="https://cdn.bootcss.com/knockout/3.4.2/knockout-min.js"></script>
+</head>
+<body>
+    <div id="app">
+        name:
+        <input data-bind="value:inputValue"/>
+        <span data-bind="text:inputValue"></span>
+    </div>
+    <div id="app2">
+        text:
+        <input data-bind="value:inputValue2"/>
+    </div>
+    <button data-bind="click:handleSave">保存</button>
+
+    <div>
+        complexField <br>
+        name: <input type="text" data-bind="value: complexVm.name">
+        text: <input type="text" data-bind="value: complexVm.text">
+        field: <input type="text" data-bind="value: complexVm.field">
+    </div>
+    <button data-bind="click:handleSubmit">复杂提交</button>
+    <table>
+        <tbody data-bind="foreach: {data:list, as:'item'}">
+            <tr>
+                <td>
+                    <div data-bind="text:item.name"></div>
+                    <div data-bind="text:$parent.inputValue"></div>
+                </td>
+                <td data-bind="text:item.value"></td>
+            </tr>
+        </tbody>
+    </table>
+    <div data-bind="if:visible">显示我</div>
+    <div data-bind="visible:visible">显示我</div>
+    <span data-bind="text:amountDisplay"></span>
+    <script src="index.js"></script>
+</body>
+</html>
