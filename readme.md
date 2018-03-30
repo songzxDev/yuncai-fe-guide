@@ -38,9 +38,12 @@
    - 单页面应用介绍
    - requirejs + directorjs介绍
 - [1.knockoutjs基本语法讲解](http://v.youku.com/v_show/id_XMzQ5OTM3NTI1Mg==.html)
-- 2.mall-cli-portal 超市前端讲解
+- [2.mall-cli-portal 超市前端讲解](http://v.youku.com/v_show/id_XMzUwMjE4OTkyOA==.html)
 - 3.cpu-portal-fe 询报价、基本档案前端讲解
 - 4.home 官网门户代码讲解
+
+## 其他教程
+- [个性化开发说明](https://github.com/yonyouyc/yuncai-fe-guide/blob/master/tutorial/customrule/readme.md)
 
 ## 相关链接
 [ES6基础知识](http://es6.ruanyifeng.com/)
