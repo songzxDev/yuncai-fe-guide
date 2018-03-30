@@ -18,13 +18,14 @@
 { 
   moduleId: '', //工程名称
   billType: '', //单据名称
-  dataInfo: '', //数据详细信息
+  dataInfo: '', //数据详细信息，对于一些和field字段无关的个性化配置补充说明
   field: '', //字段名称
   customType: '', //个性化类型（如2.1中的各种类型）
   customValue: '', //要个性化的值
   outside:'', //是否是跨租户配置,1为跨租户
   remark: '' //备注，文字描述规则代表的含义
 }
+// 通常情况下 moduleId+billType+dataInfo+field 对应到界面上唯一的字段/区域
 ```
 规则举例:
 ```
