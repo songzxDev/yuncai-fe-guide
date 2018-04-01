@@ -1,0 +1,15 @@
+<div id="demo">
+    <y-breadcrumb params="
+    separator:'/',
+    data:[{text: '首页', link: 'https://www.baidu.com/'},
+        {text: '第二页', link: 'https://yc.yonyoucloud.com/home/index.html#/'},
+        {text: '第三页'}]">
+    </y-breadcrumb>
+    <y-boxfilter params="title:'demo管理'">
+        <y-button params="type:'primary',click:$root.handleAdd">新增</y-button>
+        <y-input class="pull-right" params="placeholder: '请输入文本..', value: $root.searchValue, iconClass:'fa fa-search', onIconClick: $root.onIconClick"></y-input>
+    </y-boxfilter>
+    <y-boxcontent params="title: '表格区域'">
+        <y-grid params="rows:$root.rows,columns:$root.columns"></y-grid>
+    </y-boxcontent>
+</div>
