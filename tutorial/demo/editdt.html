@@ -5,9 +5,9 @@
         {text: '第二页', link: 'https://yc.yonyoucloud.com/home/index.html#/'},
         {text: '第三页'}]">
     </y-breadcrumb>
-    <y-boxfilter params="title:'demo编辑'">
+    <y-boxsticky params="title:'demo编辑'">
         <y-button class="pull-right" params="type:'primary',click:$root.submit">保存</y-button>
-    </y-boxfilter>
+    </y-boxsticky>
     <y-boxcontent params="title: '表单区域'">
         <div class="row">
             <div class="col-md-5">
@@ -30,5 +30,13 @@
         </y-form>
             </div>
         </div>
+    </y-boxcontent>
+    <y-boxcontent params="title: '子表区域'" class="y-relative">
+        <div style="text-align: right;margin-bottom: 10px;">
+            <y-button params="type:'primary',click: $root.addDetailList">新增物资</y-button>
+        </div>
+        <y-grid params="maxheight:'auto',columns:$root.detailColumn, rows: $root.detailList.rows, isDataTable:true">
+
+        </y-grid>
     </y-boxcontent>
 </div>

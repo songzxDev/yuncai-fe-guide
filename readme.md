@@ -40,7 +40,7 @@
 - [1.knockoutjs基本语法讲解](http://v.youku.com/v_show/id_XMzQ5OTM3NTI1Mg==.html)
 - [2.mall-cli-portal 超市前端讲解](http://v.youku.com/v_show/id_XMzUwMjE4OTkyOA==.html)
 - [3.cpu-portal-fe 及ycloud讲解](http://v.youku.com/v_show/id_XMzUwODA0MDU3Mg==.html)
-- 4.iuap dataTable讲解
+- [4.iuap dataTable讲解及复杂主子表页面案例](http://v.youku.com/v_show/id_XMzUyNTY4MTM0NA==.html)
 - 5.ycloud-refer通用参照讲解
 - 6 cpu-portal-fe 询报价代码走读
 
