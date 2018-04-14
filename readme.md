@@ -41,8 +41,9 @@
 - [2.mall-cli-portal 超市前端讲解](http://v.youku.com/v_show/id_XMzUwMjE4OTkyOA==.html)
 - [3.cpu-portal-fe 及ycloud讲解](http://v.youku.com/v_show/id_XMzUwODA0MDU3Mg==.html)
 - [4.iuap dataTable讲解及复杂主子表页面案例](http://v.youku.com/v_show/id_XMzUyNTY4MTM0NA==.html)
-- 5.ycloud-refer通用参照讲解
-- 6 cpu-portal-fe 询报价代码走读
+- [5.通用参照和ko组件示例](https://v.youku.com/v_show/id_XMzUzODc3NjgwNA==.html?spm=a2hzp.8244740.0.0)
+- 6.ycloud-refer通用参照讲解
+- 7.cpu-portal-fe 询报价代码走读
 
 ## 其他教程
 - [个性化开发说明](https://github.com/yonyouyc/yuncai-fe-guide/blob/master/tutorial/customrule/readme.md)

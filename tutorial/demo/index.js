@@ -2,7 +2,7 @@ define(["jquery",
   'knockout',
   "baseview",
   "text!pages/demo/index.html",
-  "common","ycloud"], function ($, ko, Baseview, template, Common, ycloud) {
+  "common","ycloud", "pages/demo/component/referSupply"], function ($, ko, Baseview, template, Common, ycloud) {
     var self = null
     var view = Baseview.extend({
       setTemplate: function () {
@@ -11,6 +11,7 @@ define(["jquery",
       },
       viewmodel: {
         el: '#demo',
+        modalvisible: ko.observable(false),
         searchValue: ko.observable(''),
         columns: [
           {
@@ -55,6 +56,13 @@ define(["jquery",
         rows: ko.observableArray([])
       },
       events: {
+        modalShow: function () {
+          self.viewmodel.modalvisible(true)
+        },
+        onOk: function (row) {
+          self.viewmodel.modalvisible(false)
+          alert(JSON.stringify(row))
+        },
         handleAdd: function () {
           window.location.href = '#/pages/demo/edit'
         },

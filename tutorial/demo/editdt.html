@@ -11,7 +11,7 @@
     <y-boxcontent params="title: '表单区域'">
         <div class="row">
             <div class="col-md-5">
-        <y-form params="labelAlign: 'right'">
+        <y-form params="labelAlign: 'right',labelWdith:'100px'">
             <y-formitem params="label:'姓名:'">
                 <y-input params="placeholder:'请输入文本', type:'text', value:$root.model.ref('name')"></y-input>
             </y-formitem>
@@ -27,6 +27,9 @@
             <y-formitem params="label:'提交:'">
                 <y-button params="type: 'info', click: $root.submit">提交</y-button>
             </y-formitem>
+            <y-formitem params="label:'供应商档案:'">
+                <div class="y-input" data-bind="click: $root.handleRefer, text:$root.model.ref('supplyName')"></div>
+            </y-formitem>
         </y-form>
             </div>
         </div>
@@ -39,4 +42,5 @@
 
         </y-grid>
     </y-boxcontent>
+    <demo-refer-supply params="modalvisible: $root.modalvisible, onOk: $root.onReferSelect"></demo-refer-supply>
 </div>

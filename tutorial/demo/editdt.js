@@ -2,7 +2,7 @@ define(["jquery",
   'knockout',
   "baseview",
   "text!pages/demo/editdt.html",
-  "common","ycloud"], function ($, ko, Baseview, template, Common, ycloud) {
+  "common","ycloud", "pages/demo/component/referSupply"], function ($, ko, Baseview, template, Common, ycloud) {
     var self = null
     var view = Baseview.extend({
       setTemplate: function () {
@@ -17,7 +17,9 @@ define(["jquery",
             name: {},
             sex: {},
             identity: {},
-            isDanyuan: {}
+            isDanyuan: {},
+            supplyId: {},
+            supplyName: {}
           }
         }),
         detailColumn: [
@@ -96,8 +98,17 @@ define(["jquery",
             label: '女'
           }
         ],
+        modalvisible: ko.observable(false)
       },
       events: {
+        onReferSelect: function (row) {
+          self.viewmodel.modalvisible(false)
+          self.viewmodel.model.setValue('supplyId', row.id)
+          self.viewmodel.model.setValue('supplyName', row.name)
+        },
+        handleRefer: function () {
+          self.viewmodel.modalvisible(true)
+        },
         addDetailList: function () {
           self.viewmodel.detailList.createEmptyRow()
         },
@@ -124,6 +135,8 @@ define(["jquery",
               sex: '1',
               identity: '1',
               isDanyuan: true,
+              supplyId: '',
+              supplyName: '',
               materialList: [{
                 mname: '物资1',
                 mcode: 'AVD',
