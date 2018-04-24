@@ -45,6 +45,9 @@
 - 6.ycloud-refer通用参照讲解
 - 7.cpu-portal-fe 询报价代码走读
 
+## 业务流程视频
+- [1.询报价流程](https://v.youku.com/v_show/id_XMzU1NDI1ODE1Ng==.html?spm=a2hzp.8244740.0.0)
+
 ## 其他教程
 - [个性化开发说明](https://github.com/yonyouyc/yuncai-fe-guide/blob/master/tutorial/customrule/readme.md)
 
