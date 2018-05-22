@@ -54,6 +54,7 @@
 
 ## 其他教程
 - [个性化开发说明](https://github.com/yonyouyc/yuncai-fe-guide/blob/master/tutorial/customrule/readme.md)
+- [金额精度最终方案说明](https://github.com/yonyouyc/yuncai-fe-guide/blob/master/rules/precision.md)
 
 ## 相关链接
 [ES6基础知识](http://es6.ruanyifeng.com/)
