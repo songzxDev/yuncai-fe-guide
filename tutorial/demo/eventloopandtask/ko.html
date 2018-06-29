@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/knockout/3.4.2/knockout-min.js"></script>
+</head>
+<body>
+    <div id="text" data-bind="text:data"></div>
+    <div id="text2"></div>
+    <script >
+        var vm = {
+          data: ko.observable('')
+        }
+        ko.applyBindings(vm)
+        vm.data.subscribe(function (val) {
+            $("#text2").html('test3')
+            setTimeout(function () {
+                $("#text2").html('<div>test4</div>')
+            }, 0)
+            ko.tasks.schedule(function () {
+              $("#text2").html('test2')
+            })
+        })
+        setTimeout(function () {
+          vm.data('testme')
+        }, 2000)
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<pre>
+  51. console.log('start')
+
+  54. const interval = setInterval(function () {
+  55.   console.log('setInterval')
+  56  }, 50)
+
+  58. setTimeout(function () {
+        console.log('setTimeout 1')
+        document.body.append("hi i am new2")
+  60.   Promise.resolve()
+        .then(function () {
+            console.log('promise 3')
+            document.body.append("hi i am new")
+        })
+        .then(function () {
+            console.log('promise 4')
+        })
+        .then(function () {
+            setTimeout(function () {
+              console.log('setTimeout 2')
+              Promise.resolve()
+                .then(function () {
+                  console.log('promise 5')
+                })
+                .then(function () {
+                  console.log('promise 6')
+                })
+                .then(function () {
+                  clearInterval(interval)
+                })
+               console.log('setTimeout 2 end')
+            }, 20)
+        })
+    }, 140)
+
+  Promise.resolve()
+    .then(function () {
+      console.log('promise 1')
+    })
+    .then(function () {
+      console.log('promise 2')
+    })
+</pre>
+<script>
+    function a(){return '1'}
+    console.log('start')
+    var a2 = a()
+
+    const interval = setInterval(function () {
+      console.log('setInterval')
+    }, 50)
+
+    setTimeout(function () {
+      console.log('setTimeout 1')
+      document.body.append("hi i am new2")
+      Promise.resolve()
+        .then(function () {
+          console.log('promise 3')
+        })
+        .then(function () {
+          console.log('promise 4')
+        })
+        .then(function () {
+          setTimeout(function () {
+            document.body.append("hi i am new")
+            console.log('setTimeout 2')
+            Promise.resolve()
+              .then(function () {
+                console.log('promise 5')
+              })
+              .then(function () {
+                console.log('promise 6')
+              })
+              .then(function () {
+                clearInterval(interval)
+              })
+            console.log('setTimeout 2 end')
+          }, 20)
+        })
+    }, 140)
+
+    Promise.resolve()
+      .then(function () {
+        console.log('promise 1')
+      })
+      .then(function () {
+        console.log('promise 2')
+      })
+</script>
+</body>
+</html>

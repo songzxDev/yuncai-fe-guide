@@ -55,7 +55,7 @@
 ## 其他教程
 - [个性化开发说明](https://github.com/yonyouyc/yuncai-fe-guide/blob/master/tutorial/customrule/readme.md)
 - [金额精度最终方案说明](https://github.com/yonyouyc/yuncai-fe-guide/blob/master/rules/precision.md)
-
+- [浏览器渲染原理及js event loop](http://v.youku.com/v_show/id_XMzY5MzgzNTEwOA==.html)   [_对应ppt下载_](https://github.com/yonyouyc/yuncai-fe-guide/blob/master/file/fed-train-js-eventloop.pdf) [_对应代码示例_](https://github.com/yonyouyc/yuncai-fe-guide/blob/master/tutorial/demo/eventloopandtask/main.html)
 ## 相关链接
 [ES6基础知识](http://es6.ruanyifeng.com/)
 [ESLint知识](http://eslint.cn/)

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id='con'>this is con2</div>
+<script>
+  var con = document.getElementById('con');
+  con.onclick = function () {
+    debugger
+    Promise.resolve().then(function () {
+      con.textContext = '0';
+    })
+  };
+</script>
+</body>
+</html>
