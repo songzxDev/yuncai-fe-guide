@@ -17,7 +17,8 @@
 ## ui组件/框架
 - [bootstrap](https://v3.bootcss.com/components/)
 - [ycloud](https://github.com/yonyouyc/ycloud)
-
+## javascript规范
+- [参考airbnb](https://github.com/airbnb/javascript)
 ## ue规范参考
 - [UE规范参考](https://yonyouyc.github.io/yuncai-ue/index.html)
 ## 各工程指导

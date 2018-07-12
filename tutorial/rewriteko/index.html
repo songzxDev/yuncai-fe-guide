@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script >
+      var ko = {}
+      ko.observable = function (params) {
+        var actualValue = ''
+        if (params) {
+          actualValue = params
+        }
+        return function (val) {
+          if (val !== undefined) {
+            actualValue = val
+          } else {
+            return actualValue
+          }
+        }
+      }
+      window.vm = {
+        name: ko.observable('ttt')
+      }
+    </script>
+</body>
+</html>
