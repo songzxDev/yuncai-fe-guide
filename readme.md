@@ -43,8 +43,8 @@
 - [3.cpu-portal-fe 及ycloud讲解](http://v.youku.com/v_show/id_XMzUwODA0MDU3Mg==.html)
 - [4.iuap dataTable讲解及复杂主子表页面案例](http://v.youku.com/v_show/id_XMzUyNTY4MTM0NA==.html)
 - [5.通用参照和ko组件示例](https://v.youku.com/v_show/id_XMzUzODc3NjgwNA==.html?spm=a2hzp.8244740.0.0)
-- 6.ycloud-refer通用参照讲解
-- 7.cpu-portal-fe 询报价代码走读
+- [6.使用ycloud-template开发新页面](http://v.youku.com/v_show/id_XMzg1MzE1OTY4OA==.html)
+
 
 ## 业务流程视频
 - [1.询报价流程](https://v.youku.com/v_show/id_XMzU1NDI1ODE1Ng==.html?spm=a2hzp.8244740.0.0)
@@ -59,6 +59,7 @@
 - [金额精度最终方案说明](https://github.com/yonyouyc/yuncai-fe-guide/blob/master/rules/precision.md)
 - [浏览器渲染原理及js event loop](http://v.youku.com/v_show/id_XMzY5MzgzNTEwOA==.html)   [_对应ppt下载_](https://github.com/yonyouyc/yuncai-fe-guide/blob/master/file/fed-train-js-eventloop.pdf) [_对应代码示例_](https://github.com/yonyouyc/yuncai-fe-guide/blob/master/tutorial/demo/eventloopandtask/main.html)
 - [dropdown实现以及transferdom原理](https://v.youku.com/v_show/id_XMzgwNTc1NzI3Ng==.html)
+- [y-grid千行表格lazy加载解决方案](http://v.youku.com/v_show/id_XMzg1MjM5MDIyMA==.html)
 ## 相关链接
 [ES6基础知识](http://es6.ruanyifeng.com/)
 [ESLint知识](http://eslint.cn/)
