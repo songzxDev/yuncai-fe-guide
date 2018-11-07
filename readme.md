@@ -59,7 +59,9 @@
 - [金额精度最终方案说明](https://github.com/yonyouyc/yuncai-fe-guide/blob/master/rules/precision.md)
 - [浏览器渲染原理及js event loop](http://v.youku.com/v_show/id_XMzY5MzgzNTEwOA==.html)   [_对应ppt下载_](https://github.com/yonyouyc/yuncai-fe-guide/blob/master/file/fed-train-js-eventloop.pdf) [_对应代码示例_](https://github.com/yonyouyc/yuncai-fe-guide/blob/master/tutorial/demo/eventloopandtask/main.html)
 - [dropdown实现以及transferdom原理](https://v.youku.com/v_show/id_XMzgwNTc1NzI3Ng==.html)
+- [前端特性分支开发](http://v.youku.com/v_show/id_XMzkwNzA4MzA3Mg==.html)
 - [y-grid千行表格lazy加载解决方案](http://v.youku.com/v_show/id_XMzg1MjM5MDIyMA==.html)
+- [y-grid千行表格lazy加载解决方案（续）](http://v.youku.com/v_show/id_XMzkwODYwNTA1Ng==.html)
 ## 相关链接
 [ES6基础知识](http://es6.ruanyifeng.com/)
 [ESLint知识](http://eslint.cn/)
