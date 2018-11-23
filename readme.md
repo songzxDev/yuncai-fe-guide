@@ -56,6 +56,7 @@
 ## 其他教程
 - [友云采前端国际化方案](https://github.com/yonyouyc/yuncai-fe-guide/blob/master/file/newmethodoffontendi18n.pdf)
 - [个性化开发说明](https://github.com/yonyouyc/yuncai-fe-guide/blob/master/tutorial/customrule/readme.md)
+- [个性化开发规范](https://github.com/yonyouyc/yuncai-fe-guide/blob/master/tutorial/customrule/custom.md)
 - [金额精度最终方案说明](https://github.com/yonyouyc/yuncai-fe-guide/blob/master/rules/precision.md)
 - [浏览器渲染原理及js event loop](http://v.youku.com/v_show/id_XMzY5MzgzNTEwOA==.html)   [_对应ppt下载_](https://github.com/yonyouyc/yuncai-fe-guide/blob/master/file/fed-train-js-eventloop.pdf) [_对应代码示例_](https://github.com/yonyouyc/yuncai-fe-guide/blob/master/tutorial/demo/eventloopandtask/main.html)
 - [dropdown实现以及transferdom原理](https://v.youku.com/v_show/id_XMzgwNTc1NzI3Ng==.html)
